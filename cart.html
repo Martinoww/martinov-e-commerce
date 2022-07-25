@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/sources/styles.css">
+    <script src="/sources/script.js"></script>
+    <title>Cart</title>
+</head>
+<body>
+    <header>
+        <article class="logo-container"><a href="/index.html" class="homepage-link"><img src="https://thumbs.dreamstime.com/b/grocery-store-delivery-company-s-logo-items-vegetables-home-icon-vector-design-template-167341513.jpg" alt="logo-img"></a></article>
+        <nav class="nav-container">
+            <ul class="nav-list">
+                <li class="nav-list-item"><input type="search" name="" id="search-bar" placeholder="Browse Through Our Products"></li>
+                <li class="nav-list-item"><a href="/product-list.html" class="nav-list-item-link">All Products</a></li>
+                <li class="nav-list-item"><a href="/bestProducts.html" class="nav-list-item-link">Best Products</a></li>
+                <li class="nav-list-item"><a href="/cart.html" class="nav-list-item-link">Cart</a></li>
+                <li class="nav-list-item"><a href="/check.html" class="nav-list-item-link">Check</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main class="cart-container">
+        <h2 class="cart-order-heading">Your order</h2>
+        <article class="items-container">
+            <div class="item-container-nav">
+                <div class="item">
+                    <p>Item</p>
+                </div>
+                <ul class="item-container-nav-list">
+                    <li class="item-container-nav-list-item">Variant</li>
+                    <li class="item-container-nav-list-item">Price</li>
+                    <li class="item-container-nav-list-item">Subtotal</li>
+                </ul>
+            </div>
+            <div class="item-container">
+                <div class="item-info-container">
+                    <div class="img-container">
+                        <img class="item-img" src="https://m.ebag.bg/products/images/107663/800" alt="prod-img">
+                    </div>
+                    <div class="item-descr">
+                        <p class="product-name">Cookie Crisps, 1 kg</p>
+                    <input onchange="onCountChange(event)" type="number" name="" id="count" value="1">
+                    </div>
+                </div>
+                <ul class="item-container-list">
+                    <li class="item-container-list-item">1 kg</li>
+                    <li class="item-container-list-item">$4.95</li>
+                    <li class="item-container-list-item">$4.95</li>
+                </ul>
+            </div>
+            <div class="item-container">
+                <div class="item-info-container">
+                    <div class="img-container">
+                        <img class="item-img" src="https://production.balevbiomarket-contents.com/p/400214/400214-28279-vegan-kaima-beyond-meat-large.jpeg" alt="prod-img">
+                    </div>
+                    <div class="item-descr">
+                        <p class="product-name">Beyond Mince, 1.000 kg</p>
+                    <input onchange="onCountChange(event)" type="number" name="" id="count" value="1">
+                    </div>
+                </div>
+                <ul class="item-container-list">
+                    <li class="item-container-list-item">1.000 kg</li>
+                    <li class="item-container-list-item">$11.95</li>
+                    <li class="item-container-list-item">$11.95</li>
+                </ul>
+            </div>
+            <div class="item-container">
+                <div class="item-info-container">
+                    <div class="img-container">
+                        <img class="item-img" src="https://i5.walmartimages.com/asr/57b4786b-fd0b-4ec9-900b-52997bee98f3.10b575276e20df8d1dac0891611abd90.jpeg" alt="prod-img">
+                    </div>
+                    <div class="item-descr">
+                        <p class="product-name">Chicken Breast, 1 kg</p>
+                    <input onchange="onCountChange(event)" type="number" name="" id="count" value="1">
+                    </div>
+                </div>
+                <ul class="item-container-list">
+                    <li class="item-container-list-item">1 kg</li>
+                    <li class="item-container-list-item">$8.95</li>
+                    <li class="item-container-list-item">$8.95</li>
+                </ul>
+            </div>
+            <div class="item-container">
+                <div class="item-info-container">
+                    <div class="img-container">
+                        <img class="item-img" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRLOGnvd-D0DRhy3MPx-4CFR4IesCm1-YU-DQ&usqp=CAU" alt="prod-img">
+                    </div>
+                    <div class="item-descr">
+                        <p class="product-name">Tomatoes, 1 kg</p>
+                    <input onchange="onCountChange(event)" type="number" name="" id="count" value="1">
+                    </div>
+                </div>
+                <ul class="item-container-list">
+                    <li class="item-container-list-item">1 kg</li>
+                    <li class="item-container-list-item">$3.95</li>
+                    <li class="item-container-list-item">$3.95</li>
+                </ul>
+            </div>
+            <p class="total-sum">$0.00</p>
+        </article>
+    </main>
+    <footer >
+        <p>&copy; All rights reserved. Alexander Martinov2022</p>
+    </footer>
+</body>
+</html>
