@@ -1,0 +1,5 @@
+Hi Stefano,
+As we talked earlier I am making a text document to inform you that I haven't taken inspiration from the given site in our shared file. I have took only the cart and check view from the given site, everything else is inspired by myself.
+
+The project has the following JS implemented: dynamically sum the cart Total sum and every grocery Total sum.
+Has two types of details page, Homepage, all products page(Cannot open details page from there), best products page(Where you can actually click the grocery to see the details page), Cart page, checkout page.
